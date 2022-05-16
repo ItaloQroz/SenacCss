@@ -18,7 +18,7 @@ body{  background-image: url(imagens/senac.png.opdownload);
     list-style-type: none;
     padding: 0px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 20px;
 
 }
 
@@ -28,7 +28,7 @@ body{  background-image: url(imagens/senac.png.opdownload);
     background-color: rgb(209, 103, 41);
     display: table-cell;
     vertical-align: middle;
-    padding: 15px;
+    padding: 10px;
     height: 10px;
     width: 30%;
 }
@@ -40,9 +40,13 @@ body{  background-image: url(imagens/senac.png.opdownload);
 }
 
 .MenuDeLinks {
-    margin-left: 30%;
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+    margin-bottom: 20px;
+   /* margin-left: 30%;
     margin-right: 30%;
-    margin-top: 30px;
+    margin-top: 20px;*/
 
 }
 
@@ -55,12 +59,13 @@ body{  background-image: url(imagens/senac.png.opdownload);
     background-image: url(imagens/s17Qi.jpg);
     margin-left: 30%;
     margin-right: 30%;
-    margin-top:0px ;
-    margin-bottom: 0;
+    margin-top:10px ;
+    margin-bottom: 10px;
     text-align: center;
     color: rgb(255, 255, 255);
-    font-size: 54px;
+    font-size: 45px;
     background-color: white;
+
     
 }
 
@@ -122,4 +127,54 @@ body{  background-image: url(imagens/senac.png.opdownload);
 
 
 
+.conteudo img {
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    width: 760px;
+}
 
+.tabela {
+    display: block;
+    background-color: white;
+    width: 40%;
+    border-style:solid 1.5em;
+    margin: 0 auto;
+}
+.tabela img {
+    display: block;
+    margin: auto;
+}
+
+.tabela2 {
+    display: block;
+    background-color: white;
+    width: 60%;
+    border-style:solid 1.5em;
+    margin: 0 auto;
+    font-size: 15px;
+}
+
+.textoprincipal2 {
+    background-image: url(imagens/s17Qi.jpg);
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 45px;
+    background-color: white;
+
+
+}
+
+.MenuLogo2 {
+    display: flex;
+    justify-content: center;
+    margin: 0px 20% 0px 20%;
+    background-color: white;
+    background-image: url(imagens/fundo2.jpg);
+    background-size: cover;
+
+}
